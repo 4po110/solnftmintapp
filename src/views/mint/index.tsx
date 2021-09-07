@@ -128,6 +128,10 @@ export const MintView = () => {
     clearInterval(inte);
   };
 
+  const func = async () => {
+    await mint();
+  };
+
 //   return (
 //     <>
 //       <Row style={{ paddingTop: 50 }}>
@@ -225,7 +229,7 @@ export const MintView = () => {
         <div className="deposit-input-title" style={{ margin: 200 }}>
           {LABELS.MINT_INFO}
         </div>
-        <ConnectButton type="primary" onClick={mint}>
+        <ConnectButton type="primary" onClick={func}>
           {LABELS.MINT}
         </ConnectButton>
       </div>
