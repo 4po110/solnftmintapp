@@ -42,3 +42,7 @@ export const programIds = () => {
     token: TOKEN_PROGRAM_ID,
   };
 };
+
+export const AR_SOL_HOLDER_ID = new PublicKey(
+  'HvwC9QSAzvGXhhVrgPmauVwFWcYZhne3hVot9EbHuFTm',
+);

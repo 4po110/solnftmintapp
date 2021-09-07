@@ -3,10 +3,10 @@ export const LABELS = {
   BORROWING_POWER_USED: "Borrowing Power Used",
   BORROWING_POWER_VALUE: "Borrowing Power",
   BORROWED_VALUE: "You borrowed",
-  GIVE_SOL: "Mint for LSN",
+  MINT: "Mint for LSN",
   LIQUIDATION_INFO:
     "This view displays all loans that can be liquidated. A liquidation is a process where borrower collateral does not cover value of the loan. It is represented by health factor falling below 1.0. When a loan is liquidated, an liquidator can purchase collateral at a discount by repaing the portio of the loan. ",
-  FAUCET_INFO:
+  MINT_INFO:
     "This will mint NFT's to your wallet. (warning: make sure you are on devnet)",
   ACCOUNT_FUNDED: "Account funded.",
   AIRDROP_FAIL: "Airdrop failed, please check you're not on mainnet or your localnet is running.",
